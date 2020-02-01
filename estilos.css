@@ -2,7 +2,30 @@ body {
     font-family: "arial", "helvetica";
     color: red;
 }
-
-p{
+p {
     border: solid 5px blueviolet;
+}
+ul {
+    outline: 1px dotted red;
+    padding: 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: strech;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ul li {
+    outline: 1px dotted green;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.especial1 {
+    background-color: yellow;
+}
+.especial2 {
+    background-color: cyan;
 }
