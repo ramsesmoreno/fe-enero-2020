@@ -1,6 +1,5 @@
 body {
     font-family: "arial", "helvetica";
-    color: red;
 }
 p {
     border: solid 5px blueviolet;
@@ -28,4 +27,23 @@ ul li {
 }
 .especial2 {
     background-color: cyan;
+}
+ol, ol li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+ol {
+    outline: 1px dotted red;
+    display: grid;
+    grid-template-columns: 50px auto 50px;
+    grid-template-rows: 50px 100px 50px;
+}
+ol li {
+    outline: 1px dotted green;
+}
+li.importante {
+    background-color: yellow;
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
 }
