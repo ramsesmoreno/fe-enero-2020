@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .fondo {
+        background-image: url(https://i.picsum.photos/id/857/600/300.jpg);
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+        width: 20vw;
+        height: 20;
+        outline: 1px solid black;
+    }    
+    body {
+        background-color: yellow;
+        font-size: .9em;
+    }
+    img.flotada {
+        width: 30%;
+        float: right;
+        display: block;
+        margin: 0 1em 1em 0
+    }
+    p {
+        outline: 1px dotted red;
+    }
+    h2 {
+        clear: both;
+    }
+    @media all and (max-width: 768px) and (min-width: 421px) {
+        img.flotada {
+            width: 48%;
+            float: left;
+            margin: 0 1%
+        }
+    }
+    @media all and (max-width: 420px) {
+        img.flotada {
+            width: 100%;
+            float: none;
+            margin: 0 0 1em 0;
+            display: none;
+        }
+        body {
+            font-size: 1.2em;
+        }
+    }
+    </style>
+</head>
+<body>
+    <div class="fondo">Con Fondo</div>
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+    <img class="flotada" src="https://i.picsum.photos/id/699/500/500.jpg" alt="Pastor de ovejas en la montaña">
+    <img class="flotada" src="https://i.picsum.photos/id/44/500/500.jpg" alt="Pastor de ovejas en la montaña">
+    <p> Reprehenderit ducimus doloribus repellendus impedit optio expedita placeat nesciunt voluptatibus nemo! Quo nesciunt eaque tempore id odio accusamus voluptates ipsum assumenda aperiam.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nisi consectetur perferendis earum, voluptatem ad molestiae dolores consequuntur non assumenda blanditiis iste sit architecto ab sapiente quasi, voluptatibus minima aliquam!</p>
+    <h2>Non, temporibus sequi, quasi omnis velit rem beatae</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat nisi consectetur perferendis earum, voluptatem ad molestiae dolores consequuntur non assumenda blanditiis iste sit architecto ab sapiente quasi, voluptatibus minima aliquam!</p>
+</body>
+</html>
